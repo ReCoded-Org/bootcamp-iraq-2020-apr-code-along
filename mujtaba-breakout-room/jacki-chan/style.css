@@ -26,6 +26,10 @@ a {
 .user-info {
     margin-left: 16px;
     display: inline-block;
+    
+}
+h3 ~ h4{
+    color: gray;
 }
 
 .avatar-img {
@@ -73,4 +77,28 @@ a {
 
 .btn-blue:hover {
     background-color: #0277bd;
+}
+.btn-white2{
+    color: #0277bd;
+    border: 1px solid #0277bd;
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 30px;
+
+}
+.btn-blue2 {
+    color: white;
+    border: 1px solid #0277bd; 
+    background-color: #039be5;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    margin-left: 16px;
+    position: relative;
+    top: 30px;
 }

@@ -1,0 +1,173 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.logo
+{
+    height: 80px;
+    width: 80px;
+    margin-left: 20px;
+}
+
+.header
+{
+    background-color: thistle;
+    box-shadow: 2px 5px 8px #888888;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.btns
+{
+    float: right;
+    margin-top: 30px;
+
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+.white-btn{
+background-color: white;
+color: #00acee;
+border: 2px solid blueviolet;
+margin: 10px;
+padding: 10px;
+border-radius: 10px;
+}
+
+.blue-btn
+{
+    background-color: #00acee;
+    color: white;
+    border: 2px solid blueviolet;
+    margin: 10px;
+padding: 10px;
+border-radius: 10px;
+}
+
+.white-btn:hover{
+    background-color: #f5f5f5;
+    }
+    
+    .blue-btn:hover
+    {
+        background-color: #00a1df;
+    }
+
+section{
+    margin: auto;
+  width: 80%;
+  height: 100vh; 
+  box-shadow: 12px 0 15px -4px #888888, -12px 0 8px -4px #888888;
+
+
+}
+    .bg-image
+    {
+        height: 300px;
+        width: 100%;
+        background: url(tardis.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    position: relative;
+     
+    }
+
+.avatar
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -75px;
+    margin-left: 50px;
+}
+
+.loc
+{ 
+    display: inline;
+}
+#loc-img{
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+}
+.info{
+position: absolute;
+margin-left: 300px;
+margin-top: 20px;
+color:#1a1a1a;
+
+}
+
+
+.follow
+{display:flex;
+align-items: center;
+padding: 10px;
+margin-left: 50px;
+margin-top: 100px;
+}
+
+.flw , .flwrs
+{
+    margin: 10px;
+    padding: 10px;
+    color: gray;
+  font-weight: bold;
+}
+
+.flwnum , .flwrsnum
+{
+    color:black;
+}
+
+
+.bio {
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
+}
+.common{
+    top: 0;
+      margin-left: 30px;
+      margin-top: 20px;
+      display:flex;
+      align-items: center;
+    }
+
+.common img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid blueviolet;
+    margin-left: -20px;
+    position: relative;
+    
+}
+
+.common a{
+    padding: 30px;
+color: #1a1a1a;
+font-weight: bolder;
+display:flex;
+align-items: center;
+}
+
+h4{
+    margin: 10px;
+    padding: 10px;
+}
+.common a:hover ,.follow a:hover
+{
+    text-decoration: underline;
+}
+
+

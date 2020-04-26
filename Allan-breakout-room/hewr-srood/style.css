@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* i didn't know which font to use so i copied twitter's font using inspect Element*/
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+header {
+  width: 100%;
+  box-shadow: 0 4px 2px -2px #aaa;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.nav-box {
+  height: 15%;
+  width: 60%;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav-bar {
+  display: inline-block;
+  position: absolute;
+  top: 1rem;
+  right: 0;
+}
+
+.btn {
+  border: 1px black solid;
+  text-decoration: none;
+  margin: 4px;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  transition: border-color ease 0.8s;
+  transition: color ease 0.8s;
+  transition: background-color ease 0.8s;
+}
+
+.btn-white {
+  border-color: #677175;
+  color: #3285c8;
+}
+
+.btn-blue {
+  border-color: #3285c8;
+  background-color: #68c1ed;
+  color: white;
+}
+
+.btn-white:hover {
+  border-color: #3285c8;
+  background-color: #68c1ed;
+  color: white;
+}
+.btn-blue:hover {
+  background-color: white;
+  border-color: #68c1ed;
+  color: #3285c8;
+}
+main {
+  height: 80vh;
+  border: 0.5px solid #ccc;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 60%;
+  position: relative;
+}
+.image-section {
+  background-image: url("./imgs/cover.jpg");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile-pic {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  left: 30px;
+  top: 44%;
+  border-bottom: 1px black solid;
+}
+
+.circular-img {
+  border-radius: 50%;
+  border: 2px white solid;
+}
+
+.profile-details {
+  position: absolute;
+  left: 25%;
+  top: 20px;
+}
+
+.profile-details h3,
+.profile-details h5 {
+  margin: 5px;
+}
+
+.silver-text {
+  color: #94a1a8;
+}
+
+.adr-icon {
+  margin-right: 5px;
+}
+
+hr {
+  position: absolute;
+  top: 90px;
+  left: 10%;
+  margin: auto;
+  width: 80%;
+}
+
+.profile-info {
+  position: relative;
+}
+section.profile-info nav.nav-bar {
+  margin-right: 3rem;
+}
+section.profile-info nav.nav-bar a {
+  float: right;
+  margin-top: 20px;
+}
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.follower-info {
+  position: absolute;
+  top: 450px;
+  padding: 0 1rem;
+}
+.bold-num {
+  color: black;
+  font-weight: bold;
+}
+.follower-imgs {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.follower-img {
+  width: 50px;
+  height: 50px;
+  margin-left: -1.5rem;
+}
+.more-follower {
+  background: grey;
+  color: #fff;
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}

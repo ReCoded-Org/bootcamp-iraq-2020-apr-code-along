@@ -105,7 +105,8 @@ h3 ~ h4{
 #horLine{
     position: relative;
     top: 50px;
-    width: 100%;
+    left: 80px;
+    width: 80%;
 }
 .personalInfo{
     margin-left: 100px;
@@ -116,4 +117,83 @@ h4 ~ h4{
     position: relative;
     left: 20px;
     bottom: 18px;
+}
+.followersImg{
+    width: 30px;
+   height: 30px;
+   border-radius:50%;
+}
+.followers{
+    position: relative;
+    left: -20px;
+}
+.followersImg1{
+    width: 30px;
+   height: 30px;
+   border-radius:50%;
+   border: 3px solid white ;
+}
+.followersImg2{
+    width: 30px;
+   height: 30px;
+   border-radius:50%;
+   border: 3px solid white ;
+   position: relative;
+    left: -18px;
+}
+.followersImg3{
+    width: 30px;
+   height: 30px;
+   border-radius:50%;
+   border: 3px solid white ;
+   position: relative;
+    left: -36px;
+}
+.followersImg4{
+    width: 30px;
+   height: 30px;
+   border-radius:50%;
+   border: 3px solid white ;
+   position: relative;
+    left: -54px;
+}
+.followersImg5{
+    width: 30px;
+   height: 30px;
+   border-radius:50%;
+   border: 3px solid white ;
+   position: relative;
+    left: -72px;
+}
+.followersImg6{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    border: 3px solid white ;
+    position: relative;
+     left: -90px;
+}
+.followersImg7{
+    width: 30px;
+   height: 30px;
+   border-radius:50%;
+   border: 3px solid white ;
+   position: relative;
+    left: -108px;
+}
+.followersImg8{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    border: 3px solid white ;
+    position: relative;
+     left: -126px;
+}
+.followersImg9{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    border: 3px solid white ;
+    position: relative;
+     left: -144px;
 }

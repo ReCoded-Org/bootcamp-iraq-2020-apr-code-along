@@ -93,3 +93,23 @@ hr {
   width: 700px;
   margin: 12px auto;
 }
+.followers {
+  display: inline;
+}
+.person-icon {
+  font-size: 12px;
+  color: gray;
+  margin: 5px 0px 5px 15px;
+  float: left;
+}
+.fo-no {
+  font-size: 12px;
+  color: gray;
+  margin: 5px 5px 5px 15px;
+  float: left;
+}
+.bold {
+  margin-right: 5px;
+  color: black;
+  float: left;
+}

@@ -1,0 +1,122 @@
+nav{
+    background-color: rgb(201, 228, 228);
+    width: 100%;
+    border-radius:6px;
+    position: fixed;
+    box-shadow: 7px 7px 20px #aaaaaa;
+    height:80px;
+    z-index: 9;
+    
+  }
+  .logo{
+    height:60px;
+    width:60px;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .blue{
+    text-decoration: none;
+    font-size: 24px;
+    border: 2px solid rgb(29,113,139);
+    border-radius: 10px;
+    padding: 8px 16px;
+    background-color: rgb(4,154,231);
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Manrope', sans-serif;
+    margin: 5px;
+  }
+  .white{
+    text-decoration: none;
+    font-size: 24px;
+    border: 2px solid rgb(29,113,139);
+    border-radius: 10px;
+    padding: 8px 16px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(29,113,139);
+    text-transform: uppercase;
+    font-family: 'Manrope', sans-serif;
+  }
+  .links{
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+  }
+  #cover{
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    display: block;
+  }
+  .container{
+    width: 80%;
+          margin: 0 auto;
+          box-shadow: 7px 7px 20px #aaaaaa;
+  }
+  #pepe{
+  width:150px;
+  height:150px;
+  border: 3px solid orange;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 70px;
+  display: block;
+  }
+  .text{
+    position: relative;
+    margin-left: 270px ;
+  
+  }
+  #pin{
+    height:30px;
+    width:30px;
+  }
+  .loc{
+    text-decoration: none;
+    font-size: 23px;
+    color: rgb(106, 129, 145);
+  }
+  h2{
+    font-family: 'Manrope', sans-serif;
+  }
+  .links2 {
+    position: absolute;
+    margin-left: 57%;
+    margin-top: -60px;
+  }
+  .man{
+    display: inline-block;
+    height:20px;
+    width:20px;
+  }
+  p{display: inline;
+    font-family:'Manrope', sans-serif;
+    font-size: 20px;
+  }
+  .follow{
+    margin-left: 40px;
+    color: rgb(106, 129, 145);
+  }
+  .num{
+    font-size: 24px;
+    color:black;
+  }
+  .new{
+    height:70px;
+    width:70px;
+    border:2px solid grey;
+    border-radius: 50%;
+    margin-left: -20px;
+    box-shadow: 7px 7px 20px #aaaaaa;
+  }
+  .small{
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+  .blue:hover{
+  background-color: #DC622C;
+  }
+  .white:hover{
+    background-color: rgb(253, 93, 24);
+    }

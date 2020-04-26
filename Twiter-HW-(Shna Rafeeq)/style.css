@@ -1,0 +1,165 @@
+*{
+    transition-timing-function: ease-in;
+    transition: 0.3s;
+  }
+
+body {
+	background: white;
+	font-size: 100%;
+	font-family: 'Times New Roman', serif; 
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color:white; 
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.logo {
+    width: 60px;
+    height: 50px;
+    margin-top: 12px;
+    margin-left: 24px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.btn-white {
+    border: 1px solid black;
+    border-radius: 20%;
+    background-color:white;
+    color: black;
+    padding: 14px;
+    text-transform: uppercase;
+}
+.btn-white:hover{
+    background-color: rgb(124, 119, 119);
+}
+
+.btn-black {
+    border: 1px solid black;
+    border-radius: 20%;
+    background-color:black;
+    color: white;
+    padding: 14px;
+    margin-left: 12px;
+    text-transform: uppercase;
+}
+
+.btn-black:hover{
+    background-color: rgb(74, 78, 80);
+}
+
+.header-link {
+    float: right;
+    margin-top: 24px;
+    margin-right: 24px;
+}
+.wrapper{
+width: 70%;
+margin: 0 auto;
+background:white;
+padding: 0 45px 20px;
+height: 100vw;
+margin-bottom: 20%;
+box-shadow: 1px 1px  10px 10px rgb(149, 151, 151);
+background-image: url("./images/wp3161403.jpg");
+background-repeat: no-repeat;
+background-size: 100% 30%;
+background-position: left top;
+}
+
+.pro-img {
+    width: 10%;
+    height: 8%;
+    margin-top: 38%;
+    margin-right: 24px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 5px solid white;
+}
+.user-info {
+    display: inline-block;
+}
+
+.location-logo {
+    height: 20px;
+    width: 15px;
+    display: inline-block;
+}
+
+.btn-contact {
+    float:right;
+    margin-top: 50%;
+    margin-right: 3px;
+}
+
+.followers {
+    color: black;
+}
+
+.follower {
+    color: black;
+    margin-left: 10px;
+}
+
+#follow{
+    margin-top: 30px;
+}
+
+#f1 {
+    width: 25px;
+    height: 25px;
+    float: left;
+    border-radius: 50%;
+    left: 45px;
+    z-index: 1;
+    position: absolute;
+    margin-left: 13%;
+    border: 2px solid white;
+}
+
+#f2 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    float: left;
+    left: 55px;
+    z-index: 2;
+    position: absolute;
+    margin-left: 13%;
+    border: 2px solid white;
+}
+
+#f3 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    float: left;
+    left: 65px;
+    z-index: 3;
+    position: absolute;
+    margin-left: 13%;
+    border: 2px solid white;
+}
+
+#f4 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    float: left;
+    left: 75px;
+    z-index: 4;
+    position: absolute;
+    margin-left: 13%;
+    border: 2px solid white;
+}

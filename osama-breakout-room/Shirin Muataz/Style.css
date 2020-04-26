@@ -88,3 +88,8 @@ a.btn {
 #location {
   color: gray;
 }
+
+hr {
+  width: 700px;
+  margin: 12px auto;
+}

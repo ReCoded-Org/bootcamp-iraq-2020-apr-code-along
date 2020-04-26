@@ -1,0 +1,132 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: rgb(61, 60, 60);
+}
+
+.header{
+    height: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(73,160,236);
+    box-shadow:0px 5px 15px #888888  ;
+}
+.nav-link{
+ color: white;
+ padding: 10px;
+ margin: 7px;
+ border-radius: 20px;
+
+ text-decoration: none;
+ font-size: 0.9em;
+ font-weight: bold;
+
+
+}
+ .white-link{
+
+    background-color: white;
+    color: rgb(73,160,236);
+    border: 2px solid rgb(73, 160, 236);
+ }
+ .blue-link{
+color: white;
+border: 2px solid white;
+background-color: rgb(73, 160, 236);
+
+ }
+ .nav-link:hover{
+
+    background-color: rgba(113, 146, 179, 0.384);
+ }
+ .white-link:hover{
+
+    background-color: rgba(255, 255, 255, 0.877);
+ }
+ .main-wrapper{
+
+    width: 60%;
+    margin: 0 auto;
+  
+    height: 100vh;
+
+   border: 0.001em solid rgb(216, 213, 213);
+   box-shadow:0px 5px 15px #888888  ;
+
+ }
+ .cover-pic {
+    height:300px;
+    background-image: url('./imgs/maxresdefault.jpg');
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+ }
+
+ .profile-pic{
+
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+    border: 4px solid white;
+    position: absolute;
+    left: 7%;
+	top: 60%;
+	cursor: pointer;
+ }
+ .profile-info {
+
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   	width: 65%;
+    margin-left: auto;
+ }
+ .location{
+
+    color: grey;
+    margin-top: 5px;
+ }
+ .location-logo{
+
+    width: 13px;
+    height: 13px;
+    vertical-align: bottom;
+ }
+ .additional-info{
+    margin-left: 5%;
+    margin-top: 5%;
+ }
+ .grey-shade{
+
+    color: grey;
+ }
+ .mutual-friend-pic{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border:2px solid white;
+ }
+ .mutual-friends{
+
+    margin-top: 10px;
+ }
+ .mutual-friends h4{
+
+    margin-bottom: 10px;
+    font-weight: normal;
+ }
+ .mutual-friend-pic{
+
+    margin-left: -15px;
+ }
+ .bio{
+
+    font-size: 15px;
+ }

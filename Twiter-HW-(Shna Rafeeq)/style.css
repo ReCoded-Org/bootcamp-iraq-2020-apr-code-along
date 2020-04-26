@@ -85,18 +85,16 @@ background-position: left top;
     margin-right: 24px;
     border-radius: 50%;
     display: inline-block;
+    border: 5px solid white;
 }
 .user-info {
     display: inline-block;
-    
 }
 
 .location-logo {
-    
     height: 20px;
     width: 15px;
     display: inline-block;
-    
 }
 
 .btn-contact {
@@ -127,6 +125,7 @@ background-position: left top;
     z-index: 1;
     position: absolute;
     margin-left: 13%;
+    border: 2px solid white;
 }
 
 #f2 {
@@ -138,6 +137,7 @@ background-position: left top;
     z-index: 2;
     position: absolute;
     margin-left: 13%;
+    border: 2px solid white;
 }
 
 #f3 {
@@ -149,6 +149,7 @@ background-position: left top;
     z-index: 3;
     position: absolute;
     margin-left: 13%;
+    border: 2px solid white;
 }
 
 #f4 {
@@ -160,4 +161,5 @@ background-position: left top;
     z-index: 4;
     position: absolute;
     margin-left: 13%;
+    border: 2px solid white;
 }

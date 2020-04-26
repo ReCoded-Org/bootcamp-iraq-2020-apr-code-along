@@ -1,0 +1,100 @@
+*{
+   
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+}
+
+div img.logo{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  border:2px solid black;
+}
+ a.class1{
+    text-decoration:none;
+    text-align: right;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    float: right;
+    text-align: right;
+
+
+}
+ a.boxing{
+    background-color:whitesmoke;
+    border:1px solid rgb(223, 223, 243);
+   
+    margin: 3px 3px;
+    position: relative;
+    border-radius: 8%;
+  padding:3px 20px;
+}
+#follow,#whitep{
+  background-color:rgb(32, 103, 196);
+  color:whitesmoke;
+}
+div#whiting{
+    background-color:whitesmoke;
+    margin: 0; 
+    height: 50px;
+}
+main {
+    position: relative;
+}
+
+img[class="ahmed"]{
+    position: relative;
+    right:-200px;
+
+}
+
+a.pos{
+    position: relative;
+    right:200px;
+    top:-10px;
+
+}
+img[class="profile"]{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    border:2px solid white;
+}
+img.profile{
+    position: relative;
+    right:480px;
+    top:50px;
+}
+ .hackers{
+     position: relative;
+     left:350px;
+     font-family: cursive;
+     color: gray;
+
+ }
+ footer{
+     position: relative;
+     left: 350px;
+ }
+ .fff{
+     width:60px;
+     height: 60px;
+     border-radius: 50%;
+     position: relative;
+
+ }
+ #ph2{
+     right:50px;
+    
+ }
+ #ph3{
+    right:100px;
+   
+}
+span#end{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: gray;
+}

@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+  }
+
+  .mainheader{
+    width:100%;
+    height: 60px;
+    background:#F0FFFF;
+  }
+  header .width{
+    width:70%;
+    margin:0 auto;
+  }
+  .logo{
+    width: 50px;
+    height: 50px;
+    margin-top:5px;
+  }
+  .navbar{
+    float:right;
+   margin-top:20px;
+  }
+  .btn{
+    text-decoration: none;
+    border:2px solid skyblue;
+    border-radius:10px;
+    font-size:20px;
+    padding:8px;
+  
+    color:skyblue;
+  }
+  .blue{
+    background:skyblue;
+    color: white;
+  }
+  .profile img{
+  margin-top:-80px;
+  margin-left:40px;
+  width: 150px;
+  height:150px;
+
+  }
+  .profile-info{
+    margin-left:225px;
+    margin-top:-60px;
+    margin-bottom:50px;
+  }
+  .follow{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1{
+     position: relative;
+    left: 0;
+  }
+  .image2{
+    position: relative;
+    right: 30px;
+  }
+  .image3{
+    position: relative;
+    right: 60px;
+  }
+  .image4{
+    position: relative;
+    right: 90px;
+  }
+  .image5{
+    position: relative;
+    right: 120px;
+  }
+  .image6{
+    position: relative;
+    right:150px;
+  }
+  .image7{
+    position: relative;
+    right: 180px;
+  }
+  
+  .profile-info p{
+    color:grey;
+    margin-top:10px;
+  }
+  .profile-info p i{
+    padding-right:10px;
+  }
+  .follower p i{
+     padding-right:10px;
+  }
+  .top{
+    margin-top:-60px;
+  }
+  .bg{
+    background-image:url('images/bg.jpg');
+    background-size: cover;
+    background-position:center;
+    width:100%;
+    height:300px;
+     margin:0 auto;
+   
+  }
+  .nmain{
+    width:70%;
+    margin:0 auto;
+  }
+  .circle-border{
+    border-radius:50%;
+    border:2px solid white;
+  }
+  .follower-pic img{
+  width:50px;
+  height: 40px;
+  margin-top: 10px;
+  }

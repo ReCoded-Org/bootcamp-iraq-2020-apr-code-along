@@ -1,15 +1,20 @@
 body{
 	align-items: center;
 	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+	background-color: #f9f2f2;
 }
 
 
 
 header{
-
+	position: fixed;
+	top:0;
+	right: 0;
+	left: 0;
 	width: 100%;
 	height: auto;
 	border-bottom: #fff0ff 1px solid;
+	background-color: white;
 	
 	
 }
@@ -27,7 +32,7 @@ header{
 	display: inline-block;
 }
 
-#btn-side{
+.btn-side{
 	margin-right: 20%;
 	margin-top:20px ;
 	display: inline-block;
@@ -58,10 +63,11 @@ box-sizing: border-box;
 }
 
 #homepage{
-	height: 100px;
+	height: auto;
 	width: 60%;
 	margin:0 auto;
-
+	border: 1px lightgray solid;
+	background-color: white;
 }
 
 #profile{
@@ -70,7 +76,7 @@ box-sizing: border-box;
 	height: 300px;
 	background-image: url(https://i.ytimg.com/vi/X7NmcT511Y4/maxresdefault.jpg);
 	background-position: center;
-	background-position-y:-3px ;
+	background-position-y:50px ;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -96,3 +102,48 @@ box-sizing: border-box;
 	margin-top: -7px;
 
 }
+
+.btn-side-profile{
+	margin-top: 7%;
+	margin-right: 5%;
+}
+
+.btn-side-profile+hr{
+	width: 60%;
+    margin-top: 3%;
+}
+
+#followers{
+
+	margin-top: 20%;
+	margin-left: 8%;
+
+}
+
+#followers h6{
+	color: lightgray;
+
+}
+#followers h6 b{
+
+	color: black;
+
+}
+.follower-1{
+	border-radius: 50%;
+	border: 2px #ffffff solid;
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	margin-left: -22px;
+	margin-bottom: 2%;
+
+	
+}
+
+hr{
+
+	width: 60%;
+
+}
+

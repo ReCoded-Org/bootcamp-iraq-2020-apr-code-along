@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    box-shadow: 2px 2px #D2D2D2;
+}
+
+.wrapper {
+    margin: auto;
+    width: 800px;
+    overflow: hidden;
+}
+
+#logo {
+    width: 50px;
+    float: left;
+    margin-top: 5px;
+}
+
+.btns {
+    float: right;
+}
+
+.btns div a {
+    text-decoration: none;
+}
+
+.btns div {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 9px;
+}
+
+.btnborder {
+    border: solid 1.5px black;
+}
+
+.btnborder a {
+    color: black;
+}
+
+.btnfill {
+    background-color: black;
+    border: solid 1.5px black;
+}
+
+.btnfill a {
+    color: white;
+}
+
+#cover {
+    height: 300px;
+    margin-top: 60px;
+    background-image: url(./images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#profile-img {
+    width: 190px;
+    height: 190px;
+    background-image: url(./images/profile.jpg);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 50%;
+    border: solid 2.5px white;
+    margin-top: -90px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+#profile-info {
+    display: inline-block;
+    font-size: 1.3rem;
+    position: relative;
+    left: 30px;
+    bottom: 0;
+}
+
+#profile-info h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.6rem;
+}
+
+#profile-info h4 {
+    font-size: 1.2rem;
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+#profile-info h4::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(./images/map-marker.svg);
+    background-repeat: no-repeat;
+    margin-right: 4px;
+}
+
+#btns-below {
+    position: relative;
+    display: inline-block;
+    bottom: 0;
+    margin-left: 128px;
+}
+
+#btns-below div {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#btns-below div a {
+    text-decoration: none;
+}
+
+.separator {
+    height: 1.5px;
+    width: 740px;
+    background-color: #191919;
+    margin: 30px auto;
+}
+
+.followers-p p span {
+    font-weight: 1000;
+}
+
+.followers-p p span::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(./images/followers.svg);
+    background-repeat: no-repeat;
+    margin-right: 9px;
+    margin-bottom: -7px;
+}
+
+.followers-p p {
+    font-size: 1.2rem;
+}
+
+.followers-imgs {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.follower-img {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: -50px;
+    background-size: cover;
+    background-position: right;
+    box-shadow: 1px 1px 1px 1px #D2D2D2;
+}
+
+#img-1 {
+    margin-left: 0;
+    background-image: url(./images/1.jpg);
+}
+
+#img-2 {
+    background-image: url(./images/2.jpeg);
+}
+
+#img-3 {
+    background-image: url(./images/3.jpg);
+}
+
+#img-4 {
+    background-image: url(./images/8.jpg);
+}
+
+#img-5 {
+    background-image: url(./images/4.jpg);
+}
+
+#img-6 {
+    background-image: url(./images/7.jpg);
+}
+
+#img-7 {
+    background-image: url(./images/5.jpg);
+}
+
+#img-8 {
+    background-image: url(./images/9.jpg);
+}
+
+#img-9 {
+    background-image: url(./images/6.jpg);
+}
+
+#img-10 {
+    position: relative;
+    background-color: #C1C2C2;
+    display: inline;
+    float: right;
+    z-index: 1000;
+}
+
+#img-10::before {
+    content: "+3";
+    display: inline-block;
+    margin-top: 34px;
+    margin-left: 30px;
+    font-size: 1.3rem;
+}
+
+

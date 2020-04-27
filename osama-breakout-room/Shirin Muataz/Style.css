@@ -88,12 +88,18 @@ a.btn {
 #location {
   color: gray;
 }
-
+/* --------------------- Shirin's coding --------------------*/
 hr {
   width: 700px;
   margin: 12px auto;
 }
+
+.fo-no-imgs {
+  /*background-color: royalblue;used just to distinguish beween blocks*/
+  float: left;
+}
 .followers {
+  /*background-color: violet;used just to distinguish beween blocks*/
   display: inline;
 }
 .person-icon {
@@ -102,7 +108,10 @@ hr {
   margin: 5px 0px 5px 15px;
   float: left;
 }
+
 .fo-no {
+  /*background-color: yellow;used just to distinguish beween blocks*/
+  font-family: Helvetica;
   font-size: 12px;
   color: gray;
   margin: 5px 5px 5px 15px;
@@ -112,4 +121,28 @@ hr {
   margin-right: 5px;
   color: black;
   float: left;
+}
+
+.fo-imgs img {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid whitesmoke;
+  margin: 5px -20px auto 1px;
+}
+.fo-imgs {
+  /*background-color: red; used just to distinguish beween blocks*/
+  float: left;
+}
+.last {
+  float: left;
+}
+#h3 {
+  background-color: grey;
+  color: whitesmoke;
+  border-radius: 50%;
+  border: 5px solid whitesmoke;
+  padding: 10px;
+  margin-top: 5px;
 }

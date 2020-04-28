@@ -1,0 +1,193 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logo {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+ margin-left: 20%;
+}
+.loc{width: 18px;
+height: 18px;
+display: inline-block;  
+}
+h5{
+	display: inline-block;
+	color:rgb(206, 202, 202) ;
+}
+.nav-box {
+	height: 40%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: rgb(243, 240, 240);
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-bar {
+	display: inline-block;
+	position: absolute;
+	top: 15px;
+	right: 20%;
+}
+.overlay1{
+	position: absolute;
+	top:4%;
+	left:20%;
+}
+.overlay2{
+	position: absolute;
+	top:4%;
+	left:44%;
+}
+.overlay3{
+	position: absolute;
+	top:4%;
+	left:84%;
+}
+.overlay4{
+	position: absolute;
+	top:4%;
+	left:134%;
+}
+.overlay5{
+	position: absolute;
+	top:4%;
+	left:164%;
+}
+.overlay6{
+	position: absolute;
+	top:4%;
+	left:178%;
+}
+.overlay7{
+	position: absolute;
+	top:4%;
+	left:218%;
+}
+hr{height:2px;border-width:0;color:gray;background-color:gray;
+	position: absolute;
+	top: 50%;
+	right: 25%;
+	}
+.btn {
+	border: 1px rgb(182, 179, 179) solid;
+	text-decoration: none;
+	margin:4px ;
+	padding: 6px;
+	border-radius: 12px;
+	color: orange;
+	font-size:15px;
+	/* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+	
+}
+.btn:hover{
+	color:white;
+	background-color: rgb(196, 191, 191);
+}
+
+.known{
+	width: 50px;
+	height: 50px;
+
+}
+.sec-nav{
+	position: absolute;
+	top: 15px;
+	right: 2%;
+
+}
+.image-section {
+	background-image: url('./imgs/cover.png');
+	height: 300px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	
+}
+.row {
+	display: flex;
+	
+  }
+
+.wrapper {
+	margin: 0 auto;
+	width: 60%;
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.align-follow{
+	position: absolute;
+	bottom: 22%;
+		left: 25%;
+}
+.orange{
+	background-color: orange;
+	color:rgb(243, 240, 240) ;
+}
+.profile-pic {
+	height: 160px;
+	width: 160px;
+	position: absolute;
+	left: 50px;
+	bottom: -70px;
+	border-bottom: 1px black solid;
+}
+
+.circular-img {
+	border-radius: 50%;
+	border: 3px rgb(206, 202, 202) solid;
+}
+
+.profile-details {
+	position: absolute;
+	left: 25%;
+	top: 20px;
+}
+
+hr {
+	height:2px;background-color:rgb(233, 227, 227);
+	width: 40%;
+	position: absolute;
+top: 60%;
+	left: 30%;
+
+	
+}
+.person{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	bottom: 32%;
+		left: 25%;
+		display: inline-block;
+}
+.follow{
+	color:rgb(206, 202, 202);
+	position: absolute;
+	bottom: 32%;
+		left: 27%;
+}
+.hm{color: black;}
+.profile-info {
+	position: relative;
+}
+
+section.profile-info nav.nav-bar a {
+	float: right;
+}
+
+.clearfix:after {
+	content: '.';
+	clear: both;
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}

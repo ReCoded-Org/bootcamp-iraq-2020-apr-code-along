@@ -5,37 +5,46 @@
 }
 
 .logo {
-	width: 20px;
-	height: 20px;
 	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 10px auto;
+	float: left;
+	
 }
 
-.nav-box {
-	height: 15%;
+header{
 	width: 100%;
-	padding: 0;
-	margin: 0;
+	height: 60px;
 	background-color: aliceblue;
-	position: relative;
+	box-shadow: 0px 2px lightgray ;
+	padding: auto 5px;
+	position: fixed;
+	z-index: 1;
+}
+.nav-box {
+	width: 70%;
+	height: 100%;
+	margin: auto auto;
 }
 
 .nav-bar {
 	display: inline-block;
-	position: absolute;
-	top: 0;
-	right: 0;
+	margin-top: 10px;
+	float: right;
 }
 
 .btn {
+	display: inline-block;
 	border: 1px black solid;
 	text-decoration: none;
-	margin: 4px;
-	padding: 4px;
+	margin: 0 10px;
+	padding: 4px 20px;
 }
 
 .image-section {
 	background-image: url('./imgs/cover.jpg');
-	height: 200px;
+	height: 250px;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -43,16 +52,18 @@
 
 .wrapper {
 	margin: 0 auto;
-	width: 60%;
-	position: relative;
+	width: 70%;
 }
+.profile-img{
+	display: inline-block;
+	width: 120px;
+height: 120px;
+margin:-60px 30px;
 
+}
 .profile-pic {
-	height: 100px;
-	width: 100px;
-	position: absolute;
-	left: 20px;
-	bottom: -45px;
+	width: 100%;
+
 	border-bottom: 1px black solid;
 }
 
@@ -61,31 +72,65 @@
 	border: 2px white solid;
 }
 
+
 .profile-details {
-	position: absolute;
-	left: 25%;
-	top: 20px;
-}
+	display: inline-block;
 
+}
+h5 {
+	display: inline-block;
+}
+.profile-btn {
+	display: inline-block;
+	margin-left: 450px;
+}
+.btn  {
+	border-radius: 10px;
+	border: 1px solid blue;
+}
+.blue {
+	background-color: blue;
+	color: cornsilk;
+}
 hr {
-	position: absolute;
-	top: 80px;
-	border: 2px black solid;
+	width: 80%;
+	margin:20px auto;
+}
+.people img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 3px solid white;
+	margin-left: -15px;
+	float: left;
+	overflow: hidden;
+}
+.people{
+	margin-left: 100px;
+}
+.people-img{
+	display: inline-block;
 }
 
-.profile-info {
-	position: relative;
+.plus-three {
+	display: inline-block;
+
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 3px solid white;
+	margin-left: -15px;
+	background-color: gray;
+	text-align: center;
+	line-height: 35px;
+	vertical-align: middle;
+	
 }
 
-section.profile-info nav.nav-bar a {
-	float: right;
-}
 
-.clearfix:after {
-	content: '.';
-	clear: both;
-	display: block;
-	height: 0;
-	line-height: 0;
-	visibility: hidden;
-}
+
+
+
+
+
+

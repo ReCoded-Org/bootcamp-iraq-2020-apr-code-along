@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#pic1 {
+  width: 75px;
+  height: 50px;
+  margin-top: 8px;
+  margin-left: 245px;
+}
+ul {
+  list-style-type: none;
+  background-attachment: scroll;
+  margin: 0px;
+  background-color: #f5f6fa;
+  padding: 0px;
+  height: 65px;
+  width: 100%;
+}
+.log {
+  position: sticky;
+  border: 1px solid blue;
+  color: blue;
+  text-decoration: none;
+  float: right;
+  border-radius: 8%;
+  margin-right: 20px;
+  margin-top: 16px;
+  text-align: center;
+  padding: 6px;
+}
+nav ul li .log:hover {
+  background-color: white;
+}
+.new {
+  color: white;
+  margin-right: 330px;
+  margin-top: 16px;
+  position: static;
+  border: 1px solid blue;
+  text-decoration: none;
+  float: right;
+  border-radius: 8%;
+  padding: 6px;
+  background: #3498db;
+}
+nav ul li .new:hover {
+  background-color: #48dbfb;
+}
+#cover {
+  width: 800px;
+  height: 300px;
+  margin-left: 250px;
+  position: relative;
+  display: block;
+}
+#pro {
+  vertical-align: middle;
+  width: 150px;
+  border: 3px solid white;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 280px;
+  position: relative;
+  display: block;
+  margin: -80px 0 10px 290px;
+  max-width: 100%;
+}
+.pic {
+  position: relative;
+  display: block;
+}
+#text {
+  margin-left: 470px;
+  bottom: 60px;
+  position: relative;
+  color: black;
+}
+#tex {
+  margin-left: 495px;
+  bottom: 48px;
+  position: relative;
+  color: #8395a7;
+}
+#loca {
+  margin-left: 470px;
+  bottom: 65px;
+  position: relative;
+  color: #8395a7;
+  width: 16px;
+  height: 16px;
+}
+.fell {
+  border: 1px solid blue;
+  text-decoration: none;
+  background-color: #3498db;
+  padding: 4px 8px 4px 8px;
+  margin-left: 350px;
+  margin-right: -50px;
+  color: white;
+  border-radius: 8%;
+  position: relative;
+  bottom: 65px;
+}
+.pic .fell:hover {
+  background-color: #48dbfb;
+}
+.mess {
+  border: 1px solid blue;
+  text-decoration: none;
+  padding: 4px 8px 4px 8px;
+  margin-left: 60px;
+  color: blue;
+  border-radius: 8%;
+  bottom: 65px;
+  position: relative;
+}
+.pic .mess:hover {
+  background-color: #f5f6fa;
+}
+#line {
+  width: 50%;
+  margin-left: 320px;
+  position: relative;
+  bottom: 45px;
+  color: #dcdde1;
+}
+#friend {
+  margin-left: 255px;
+  bottom: 25px;
+  position: relative;
+  color: #8395a7;
+  width: 20px;
+  height: 20px;
+}
+#text1 {
+  margin-left: 300px;
+  bottom: 45px;
+  position: relative;
+  color: #8395a7;
+}
+.profiles {
+  display: block;
+  position: relative;
+  margin-left: 245px;
+  top: 0;
+  left: 0;
+}
+.one {
+  border-radius: 50%;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.two {
+  border-radius: 50%;
+  position: relative;
+  right: 15px;
+}
+.three {
+  border-radius: 50%;
+  position: relative;
+  right: 30px;
+}
+.four {
+  border-radius: 50%;
+  position: relative;
+  right: 45px;
+}
+.five {
+  border-radius: 50%;
+  position: relative;
+  right: 65px;
+}
+.six {
+  border-radius: 50%;
+  position: relative;
+  right: 80px;
+}
+.seven {
+  border-radius: 50%;
+  position: relative;
+  right: 95px;
+}
